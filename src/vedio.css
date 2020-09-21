@@ -1,0 +1,27 @@
+.VedioCard{
+    color:white;
+    width:500px;
+    height: 400px;
+    padding:20px;
+    transition:transform 100ms;
+
+}
+.VedioCard :hover {
+    transform:scale(1.09)
+}
+
+.VedioCard >img {
+    height: 300px;
+    object-fit:contain;
+    width:500px;
+}
+.VedioCard >h2{
+    padding-top:10px;
+}
+.videoCard__stats {
+    display: none;
+}
+
+.VedioCard:hover > .videoCard__stats{
+    display:inline;
+}
